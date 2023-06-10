@@ -1,24 +1,11 @@
-# README
+# Apuntes:
+1. Creamos aplicación: "rails new simple_twitter --database postgresql -j esbuild --css bootstrap"
+2. Subimos a git
+3. Vemos si bootstrap está funcionando bien (ha generado problemas antes):
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Para ello, creamos primero una ruta (root), luego el controlador (static_pages_controller) y finalmente la vista.(home.html.erb en carpeta static_pages)
 
-Things you may want to cover:
+Las views son necesarias para diseñar lo que ver el usuario
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Crearemos un nav_bar simple, sacado de bootstrap, lo pondrmeos en application.html.erb, pero lo definiremos en una vista partial (pedazo de una vista, que luego "pegamos" en otra vista)
+Los partials siempre parten con _
