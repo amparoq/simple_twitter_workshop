@@ -25,7 +25,7 @@ yarn add @hotwired/turbo-rails
 yarn add @hotwired/stimulus
 yarn build
 
-4. 
+4. Cambiemos un poco el navbar
 
 
 
