@@ -26,6 +26,8 @@ yarn add @hotwired/stimulus
 yarn build
 
 4. Cambiemos un poco el navbar
+5. Agregamos devise: "bundle add devise"
+6. Luego: "rails g devise:install"
 
 
 
